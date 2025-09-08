@@ -3,47 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Crown Lamp — Summer Project</title>
+  <title>Crown Lamp — Pop Art Edition</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="bg-pattern"></div>
   <header class="site-header">
-    <h1>✨ Crown Lamp</h1>
-    <p class="tagline">An interactive, jewel-studded crown with multicolor LEDs</p>
+    <div class="badge">NEW!</div>
+    <h1><span>★</span> Crown Lamp <span>★</span></h1>
+    <p class="tagline">Wearable lights • Memphis colors • Maximum sparkle</p>
+    <a class="cta" href="#gallery">SEE IT</a>
   </header>
 
   <main class="container">
-    <section class="intro card">
-      <h2>Project Description</h2>
+    <section class="intro card comic-border">
+      <h2 class="comic-title">What is it?</h2>
       <p>
-        Made during the IMA Low-Res Summer session, <strong>Crown Lamp</strong> is a playful, wearable light sculpture.
-        Each spike has an LED, and a distance sensor changes the colors (white/green/blue) depending on how close it is while worn.
-        I air-brushed the 3D-printed crown with blue-green gradients and added rhinestones for extra sparkle.
+        <strong>Crown Lamp</strong> is a playful, Pop‑Art‑meets‑DIY wearable. Each spike hides an LED.
+        A distance sensor flips the mood from white → green → blue as it’s worn. Air‑brushed gradients +
+        rhinestones = instant ✨ drama.
       </p>
-      <p class="meta">Tools: Arduino + sensors, 3D printing, spray paint, rhinestones.</p>
+      <ul class="features">
+        <li><span>⚡</span> Arduino + distance sensor</li>
+        <li><span>🎨</span> Blue/green spray‑paint gradients</li>
+        <li><span>💎</span> Gem details for shine</li>
+      </ul>
     </section>
 
-    <section class="gallery card">
-      <h2>Gallery</h2>
+    <section id="gallery" class="gallery card comic-border">
+      <h2 class="comic-title">Gallery</h2>
       <div class="grid">
-        <figure><img src="IMG_2676.jpg" alt="Spray painting the crown"><figcaption>Gradient paint test</figcaption></figure>
-        <figure><img src="IMG_2677.jpg" alt="Dog wearing the finished crown"><figcaption>Royal model #1</figcaption></figure>
-        <figure><img src="IMG_2901.jpg" alt="Dog with jeweled crown"><figcaption>Royal model #2</figcaption></figure>
-        <figure><img src="IMG_2900.jpg" alt="Close up of gemstones"><figcaption>Gem details</figcaption></figure>
-        <figure><img src="IMG_2671.jpg" alt="Painting setup with spray cans"><figcaption>Painting setup</figcaption></figure>
+        <figure class="pop-card">
+          <img src="IMG_2676.jpg" alt="Spray painting the crown">
+          <figcaption class="bubble bubble-right">Gradient time!</figcaption>
+        </figure>
+        <figure class="pop-card">
+          <img src="IMG_2677.jpg" alt="Dog wearing the finished crown">
+          <figcaption class="bubble">Royal model #1</figcaption>
+        </figure>
+        <figure class="pop-card">
+          <img src="IMG_2901.jpg" alt="Dog with jeweled crown">
+          <figcaption class="bubble bubble-right">Shine on ✨</figcaption>
+        </figure>
+        <figure class="pop-card">
+          <img src="IMG_2900.jpg" alt="Close up of gemstones">
+          <figcaption class="bubble">Gem close‑up</figcaption>
+        </figure>
+        <figure class="pop-card">
+          <img src="IMG_2671.jpg" alt="Painting setup">
+          <figcaption class="bubble bubble-right">Studio vibes</figcaption>
+        </figure>
       </div>
     </section>
 
-    <section class="links card">
-      <h2>Links</h2>
-      <ul>
-        <li><a href="https://github.com/beikabeikaaaaa/Crown-Lamp" target="_blank" rel="noopener">GitHub Repo</a></li>
-      </ul>
+    <section class="links card comic-border">
+      <h2 class="comic-title">Links</h2>
+      <p>
+        <a class="link-chip" href="https://github.com/beikabeikaaaaa/Crown-Lamp" target="_blank" rel="noopener">GitHub Repo</a>
+        <a class="link-chip" href="#" target="_blank" rel="noopener">Demo Video (optional)</a>
+      </p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© 2025 by Rebekah — IMA Low-Res Summer</p>
+    <p>© 2025 by Rebekah — IMA Low‑Res Summer</p>
   </footer>
 </body>
 </html>
